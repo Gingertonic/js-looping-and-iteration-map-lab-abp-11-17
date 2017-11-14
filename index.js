@@ -4,7 +4,7 @@ function lowerCaseDrivers(drivers) {
       let lowerCaseDriverArray =  driver.toLowerCase;
       return lowerCaseDriverArray;
   });
-  return lowerCaseDriverArray;
+
 }
 
 
