@@ -3,7 +3,13 @@ function lowerCaseDrivers(drivers) {
     return drivers.map(function(driver) {
       return driver.toLowerCase()
   });
+}
 
+function nameToAttributes(drivers, first, last) {
+  let newArray = drivers.map(function(driver) {
+    return driver.push[firstName: first, lastName: last];
+  })
+  return newArray;
 }
 
 
